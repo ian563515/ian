@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>出題系統</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>出題系統</h1>
+  </header>
+
+  <nav>
+    <ul>
+            <li><a href="Question bank.html">出題系統</a></li>
+            <li><a href="student's result.html">學生成績</a></li>
+            <li><a href="teachers.html">教師管理</a></li>
+            <li><a href="system login.html">系統登入</a></li>
+    </ul>
+  </nav>
+
+  <section id="question-generator">
+    <h2>出題系統</h2>
+    <form>
+      <label for="question">問題：</label>
+      <textarea id="question" name="question" rows="4" cols="50"></textarea>
+
+      <label for="options">選項：</label>
+      <input type="text" id="option1" name="option1">
+      <input type="text" id="option2" name="option2">
+      <input type="text" id="option3" name="option3">
+      <input type="text" id="option4" name="option4">
+
+      <label for="answer">答案：</label>
+      <input type="text" id="answer" name="answer">
+
+      <input type="submit" value="新增問題">
+    </form>
+  </section>
+
+  <footer>
+    <p>版權所有 &copy; 2023 學校名稱</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

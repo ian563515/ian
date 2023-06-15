@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>儀表板</title>
+    <style>
+        /* CSS樣式 */
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .widget {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>儀表板</h1>
+    
+    <div class="dashboard">
+        <div class="widget">
+            <h2>訂單統計</h2>
+            <p>今日訂單數量：10</p>
+            <p>本週訂單數量：50</p>
+        </div>
+        
+        <div class="widget">
+            <h2>用戶統計</h2>
+            <p>總用戶數量：1000</p>
+            <p>本月新增用戶數量：100</p>
+        </div>
+        
+        <div class="widget">
+            <h2>商品統計</h2>
+            <p>總商品數量：500</p>
+            <p>庫存不足商品數量：10</p>
+        </div>
+    </div>
+</body>
+</html>
